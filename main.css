@@ -1,0 +1,42 @@
+/* Grey background */
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background: #222222;
+}
+
+/* Centered title */
+.title {
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+/* Make images look hazy */
+.preview img {
+    width: 100%;
+    opacity: 0.5;
+    filter: blur(1px);
+}
+
+/* Center text on images */
+.preview span {
+    position: absolute;
+    max-width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+}
